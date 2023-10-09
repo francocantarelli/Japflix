@@ -1,0 +1,98 @@
+main {
+  min-height: calc(100vh - 100px);
+}
+
+.peliculas {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: #212529 !important;
+}
+
+.dropdown-item {
+  color: #fff !important;
+}
+.dropdown-item:hover {
+  background-color: #373d43 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .album {
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  i {
+    font-size: 1rem !important;
+  }
+
+  .ayuda {
+    color: #fff;
+    text-align: center;
+  }
+
+  #lista {
+    color: white;
+  }
+
+  .estrellas-color {
+    color: orange;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .album {
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  i {
+    font-size: 1rem !important;
+  }
+
+  .ayuda {
+    color: #fff;
+    text-align: center;
+  }
+
+  #lista {
+    color: white;
+  }
+
+  .estrellas-color {
+    color: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #lista {
+    color: white;
+  }
+
+  .estrellas-color {
+    color: orange;
+  }
+
+  .ayuda {
+    color: #fff;
+    text-align: center;
+  }
+}
